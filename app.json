@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "QuickService",
+    "slug": "quick-service",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.quickservice.app"
+    },
+    "android": {
+      "package": "com.quickservice.app"
+    },
+    "extra": {
+      "firebaseApiKey": "AIzaSyDPUo7AoWfC1B7S51Y1K-ja3o3u02VjWsk",
+      "firebaseAuthDomain": "quickservice-6d895.firebaseapp.com",
+      "firebaseProjectId": "quickservice-6d895",
+      "firebaseStorageBucket": "quickservice-6d895.firebasestorage.app",
+      "firebaseMessagingSenderId": "491918330067",
+      "firebaseAppId": "1:491918330067:web:07ac554c2e79696263ec26"
+    },
+    "plugins": [
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "merchant.com.quickservice.app",
+          "enableGooglePay": true
+        }
+      ]
+    ]
+  }
+}
